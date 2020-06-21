@@ -1,3 +1,49 @@
+
+ body
+ {
+ background-color: rgb(78, 95, 95);}
+ 
+ .red{color: firebrick;
+ background-color: orangered;}
+ 
+ .green{color: forestgreen;
+ background-color: palegreen;}
+ 
+ .blue{color: deepskyblue;
+ background-color: royalblue;}
+ 
+ .greenb {background-color: green;}
+
+.redb {background-color: darkred;}
+
+.blueb {background-color: deepskyblue;}
+
+
+.red{color: firebrick;
+}
+.star{
+display: inline;
+
+}
+
+
+
+.green{color: forestgreen;
+}
+
+.blue{color: deepskyblue;
+}
+
+table, th ,td{border:10px solid rgb(112, 178, 216) ;
+border-collapse: collapse;
+padding-bottom: 40px;
+padding-left: 30px;
+}
+
+.right{text-align: right;}
+.righta{text-align: right;
+  margin-bottom: 70px;
+}
 /* td {
   background-color: orange;
 } */
