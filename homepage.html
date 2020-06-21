@@ -10,23 +10,26 @@
     h1{
 text-align:center
  }
- body
-{
-background-color: rgb(78, 95, 95);}
+  body {background-color: rgb(169, 126, 250);}
 
-.red{color: firebrick;
+
+.red{color: rgb(0, 0, 0);
 }
 
-.green{color: forestgreen;
+.green{color: rgb(0, 0, 0);
 }
 
-.blue{color: deepskyblue;
+.blue{color: rgb(0, 0, 0);
 }
-
-
+h1{
+text-align: center;
+background-color: rgb(105, 188, 221);
+}
 
 .right{text-align: right;}
+
 .righta{text-align: right;}
+
     </style>
     <!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
   </head>
@@ -40,10 +43,10 @@ background-color: rgb(78, 95, 95);}
   
   
   <body class="back">
-  
-    <h1>☕️ قهوتك علينا</h1>
-    <h1>Your coffee is on us</h1>
 
+    <div><h1 class=h1>Your coffee is on us<br>
+      ☕️ قهوتك علينا</h1></div>
+    
     <!-- ليصبحا بمحاذاة من اليمين إلي اليسار h3و p قم بإضافة التنسيق المناسب لوسمي -->
     <h3 class="right">ماذا نعني بالقهوة؟</h3>
     <p class="righta">
@@ -79,16 +82,17 @@ background-color: rgb(78, 95, 95);}
     <!-- في الأسفل border="1" قم بإزالة -->
 
     <!-- padding قم بالتعدييل على مكان الجدول في الصفحة باستخدام خواص -->
-    <table >
+    <table style="padding-left: 450px">
       <tr>
         <th class="green">Starbucks</th>
         <th class="red">Costa</th>
         <th class="blue">Caribou</th>
+        
       </tr>
       <tr>
         <!-- Coffeeshop 1 -->
         <td class="greenb">
-          <a href="./assets/images/Starbucks.jpg" target="_blank">
+          <a href="https://www.starbucks.com/store-locator?map=29.304595,47.808161,11z&place=Kuwait" target="_blank">
             <img
               src="./assets/images/Starbucks.jpg"
               alt="starbucks"
@@ -100,7 +104,7 @@ background-color: rgb(78, 95, 95);}
         </td>
         <!-- Coffeeshop 2 -->
         <td class="redb">
-          <a href="./assets/images/Costa.png" target="_blank">
+          <a href="https://www.costakuwait.com" target="_blank">
             <img
               src="./assets/images/Costa.png"
               alt="costa"
@@ -112,7 +116,7 @@ background-color: rgb(78, 95, 95);}
         </td>
         <!-- Coffeeshop 3 -->
         <td class="blueb">
-          <a href="cs1.html">
+          <a href="https://www.talabat.com/ar/kuwait/caribou-coffee">
             <img
               src="./assets/images/Caribou.png"
               alt="caribou"
@@ -127,39 +131,7 @@ background-color: rgb(78, 95, 95);}
 
     <!-- قم بجعل صور المتاجر في الأسفل مع أسماء المتاجر مرتبة في سطر واحد -->
     <!-- Linked Images -->
-    <a class=star href="./assets/images/Starbucks.jpg" target="_blank">
-      <!-- Image URL -->
-      <img class=star
-        src="./assets/images/Starbucks.jpg"
-        alt="starbucks"
-        height="100px"
-        width="170px"
-      />
-      <p class=star><strong>Starbucks Coffee</strong></p>
-    </a>
-
-    <a class=star href="./assets/images/Costa.png" target="_blank">
-      <img class=star
-        src="./assets/images/Costa.png"
-        alt="costa"
-        height="100px"
-        width="100px"
-      />
-      <p class=star><strong>Costa Coffee</strong></p>
-    </a>
-
-    <a class=star href="./assets/images/Caribou.png" target="_blank">
-      <img class="star"
-        src="./assets/images/Caribou.png"
-        alt="caribou"
-        height="100px"
-        width="100px"
-      />
-      <p class=star><strong>Caribou Coffee</strong></p>
-    </a>
-    <br>
-  </body>
-
+    
   <footer>
     <!-- strong -->
     <strong>Contact us</strong>

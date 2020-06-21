@@ -1,25 +1,26 @@
 
  body
  {
- background-color: rgb(78, 95, 95);}
+ background-color: rgb(110, 102, 223);}
  
- .red{color: firebrick;
- background-color: orangered;}
+ .red{color: rgb(92, 125, 216);
+ background-color: rgb(66, 201, 255);}
  
- .green{color: forestgreen;
- background-color: palegreen;}
+ .green{color:white;
+ background-color:deepskyblue;}
  
  .blue{color: deepskyblue;
- background-color: royalblue;}
+ background-color: deepskyblue;}
  
- .greenb {background-color: green;}
+ .greenb {background-color:deepskyblue;}
 
-.redb {background-color: darkred;}
+
+.redb {background-color:deepskyblue;}
 
 .blueb {background-color: deepskyblue;}
 
 
-.red{color: firebrick;
+.red{color: rgb(62, 124, 204);
 }
 .star{
 display: inline;
@@ -34,11 +35,8 @@ display: inline;
 .blue{color: deepskyblue;
 }
 
-table, th ,td{border:10px solid rgb(112, 178, 216) ;
-border-collapse: collapse;
-padding-bottom: 40px;
-padding-left: 30px;
-}
+
+
 
 .right{text-align: right;}
 .righta{text-align: right;
